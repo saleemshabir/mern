@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function EventForm({ onAddEvent }) {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({                
     title: "",
     category: "",
     date: "",
